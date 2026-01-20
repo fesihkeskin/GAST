@@ -1,0 +1,17 @@
+ClassID,ClassName,Count,AvgGateValue
+8,Hay-windrowed,8,0.486391
+6,Grass-trees,16,0.507920
+0,Undefined,34,0.515160
+15,Buildings-grass-trees-drives,79,0.520811
+12,Soybean-clean,185,0.502220
+3,Corn-mintill,215,0.472661
+14,Woods,348,0.488769
+7,Grass-pasture-mowed,432,0.506530
+4,Corn,435,0.506923
+11,Soybean-mintill,535,0.494670
+5,Grass-Pasture,658,0.505148
+2,Corn-notill,748,0.507091
+9,Oats,876,0.508040
+13,Wheat,1139,0.501717
+1,Alfalfa,1286,0.487801
+10,Soybean-notill,2211,0.508118

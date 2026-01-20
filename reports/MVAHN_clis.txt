@@ -1,0 +1,32 @@
+python src/training/training_MVAHN.py --dataset Botswana --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Houston13 --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Indian_Pines --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Kennedy_Space_Center --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Pavia_Centre --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Pavia_University --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset Salinas --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+python src/training/training_MVAHN.py --dataset SalinasA --patch_size 11 --mvahn_patch_size 1 --output_dir ./models/mvahn_checkpoints
+
+
+python src/training/test_MVAHN.py --dataset Botswana --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Botswana.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Houston13 --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Houston13.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Indian_Pines --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Indian_Pines.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Kennedy_Space_Center --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Kennedy_Space_Center.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Pavia_Centre --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Pavia_Centre.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Pavia_University --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Pavia_University.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset Salinas --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_Salinas.pth --output_dir ./models/mvahn_checkpoints
+
+python src/training/test_MVAHN.py --dataset SalinasA --patch_size 11 --mvahn_patch_size 1 --checkpoint ./models/mvahn_checkpoints/mvahn_best_SalinasA.pth --output_dir ./models/mvahn_checkpoints

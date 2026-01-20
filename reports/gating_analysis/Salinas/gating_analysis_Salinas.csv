@@ -1,0 +1,17 @@
+ClassID,ClassName,Count,AvgGateValue
+12,Lettuce_romaine_5wk,826,0.529094
+10,Corn_senesced_green_weeds,962,0.502246
+13,Lettuce_romaine_6wk,964,0.545057
+3,Fallow,1256,0.493920
+15,Vineyard_untrained,1627,0.506613
+11,Lettuce_romaine_4wk,1735,0.532914
+2,Broccoli_green_weeds_2,1780,0.504202
+0,Undefined,1809,0.485271
+4,Fallow_rough_plow,2412,0.460457
+9,Soil_vineyard_develop,2952,0.510892
+6,Stubble,3223,0.553014
+1,Broccoli_green_weeds_1,3354,0.487902
+5,Fallow_smooth,3565,0.478110
+8,Grapes_untrained,5583,0.494728
+14,Lettuce_romaine_7wk,6542,0.573197
+7,Celery,10145,0.580010

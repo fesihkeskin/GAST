@@ -1,0 +1,59 @@
+# Core scientific stack
+numpy
+scipy
+pandas
+
+# Deep learning
+torch
+torchvision
+
+# Graph neural networks (for GATv2)
+torch-geometric
+
+# Machine learning utilities
+scikit-learn
+
+# Hyperparameter optimization
+optuna
+
+# Visualization
+matplotlib
+seaborn
+tqdm
+
+# For saving/loading Optuna studies
+joblib
+
+# For table formatting in reports (optional, used in class_distribution.py)
+tabulate
+
+# For saving Optuna plots as images (plotly + kaleido)
+plotly
+kaleido
+
+# Jupyter notebook support (for notebooks/)
+notebook
+
+# (Optional) For 3D plotting
+mpl_toolkits
+
+# (Optional) For shell scripts and subprocesses
+# (No extra package needed, uses Python stdlib)
+
+# (Optional) For colored output/logging (if desired)
+# colorama
+
+# (Optional) For running shell scripts (already in bash)
+# No extra package needed
+
+# (Optional) For PyTorch AMP (automatic mixed precision)
+# Included in torch>=1.6
+
+# (Optional) For PyTorch Geometric dependencies (install as per their docs)
+# torch-scatter
+# torch-sparse
+# torch-cluster
+# torch-spline-conv
+
+# (Optional) For interactive plots in Jupyter
+# ipywidgets

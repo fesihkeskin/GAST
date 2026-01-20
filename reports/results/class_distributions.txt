@@ -1,0 +1,153 @@
+🛢️ Dataset: Botswana
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 1.50   Loss: CrossEntropy
+
+|   Class | Name                 |   Train |   Val |   Test |
+|---------|----------------------|---------|-------|--------|
+|       0 | Water                |      13 |    13 |    244 |
+|       1 | Hippo grass          |      10 |     5 |     86 |
+|       2 | Floodplain grasses 1 |      12 |    12 |    227 |
+|       3 | Floodplain grasses 2 |      10 |    10 |    195 |
+|       4 | Reeds                |      13 |    13 |    243 |
+|       5 | Riparian             |      13 |    13 |    243 |
+|       6 | Firescar             |      12 |    12 |    235 |
+|       7 | Island interior      |      10 |    10 |    183 |
+|       8 | Acacia woodlands     |      15 |    15 |    284 |
+|       9 | Acacia shrublands    |      12 |    12 |    224 |
+|      10 | Acacia grasslands    |      15 |    15 |    275 |
+|      11 | Short mopane         |      10 |     9 |    162 |
+|      12 | Mixed mopane         |      13 |    13 |    242 |
+|      13 | Exposed soils        |      10 |     4 |     81 |
+
+🛢️ Dataset: Houston13
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 3.94   Loss: CrossEntropy
+
+|   Class | Name            |   Train |   Val |   Test |
+|---------|-----------------|---------|-------|--------|
+|       0 | Healthy grass   |      62 |    62 |   1127 |
+|       1 | Stressed grass  |      62 |    62 |   1130 |
+|       2 | Synthetic grass |      34 |    34 |    629 |
+|       3 | Trees           |      62 |    62 |   1120 |
+|       4 | Soil            |      62 |    62 |   1118 |
+|       5 | Water           |      16 |    16 |    293 |
+|       6 | Residential     |      63 |    63 |   1142 |
+|       7 | Commercial      |      62 |    62 |   1120 |
+|       8 | Road            |      62 |    62 |   1128 |
+|       9 | Highway         |      61 |    61 |   1105 |
+|      10 | Railway         |      61 |    61 |   1113 |
+|      11 | Parking Lot 1   |      61 |    61 |   1111 |
+|      12 | Parking Lot 2   |      23 |    23 |    423 |
+|      13 | Tennis Court    |      21 |    21 |    386 |
+|      14 | Running Track   |      33 |    33 |    594 |
+
+🛢️ Dataset: Indian_Pines
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 12.20   Loss: FocalLoss
+
+|   Class | Name                         |   Train |   Val |   Test |
+|---------|------------------------------|---------|-------|--------|
+|       0 | Alfalfa                      |      10 |     2 |     34 |
+|       1 | Corn-notill                  |      71 |    71 |   1286 |
+|       2 | Corn-mintill                 |      41 |    41 |    748 |
+|       3 | Corn                         |      11 |    11 |    215 |
+|       4 | Grass-Pasture                |      24 |    24 |    435 |
+|       5 | Grass-trees                  |      36 |    36 |    658 |
+|       6 | Grass-pasture-mowed          |      10 |     2 |     16 |
+|       7 | Hay-windrowed                |      23 |    23 |    432 |
+|       8 | Oats                         |      10 |     2 |      8 |
+|       9 | Soybean-notill               |      48 |    48 |    876 |
+|      10 | Soybean-mintill              |     122 |   122 |   2211 |
+|      11 | Soybean-clean                |      29 |    29 |    535 |
+|      12 | Wheat                        |      10 |    10 |    185 |
+|      13 | Woods                        |      63 |    63 |   1139 |
+|      14 | Buildings-grass-trees-drives |      19 |    19 |    348 |
+|      15 | Stone-steel-towers           |      10 |     4 |     79 |
+
+🛢️ Dataset: Kennedy_Space_Center
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 4.60   Loss: CrossEntropy
+
+|   Class | Name                  |   Train |   Val |   Test |
+|---------|-----------------------|---------|-------|--------|
+|       0 | Scrub                 |      38 |    38 |    685 |
+|       1 | Willow swamp          |      12 |    12 |    219 |
+|       2 | Cabbage palm hammock  |      12 |    12 |    232 |
+|       3 | Slash pine            |      12 |    12 |    228 |
+|       4 | Oak/broadleaf hammock |      10 |     8 |    143 |
+|       5 | Hardwood              |      11 |    11 |    207 |
+|       6 | Swamp                 |      10 |     5 |     90 |
+|       7 | Graminoid marsh       |      21 |    21 |    389 |
+|       8 | Spartina marsh        |      26 |    26 |    468 |
+|       9 | Cattail marsh         |      20 |    20 |    364 |
+|      10 | Salt marsh            |      20 |    20 |    379 |
+|      11 | Mud flats             |      25 |    25 |    453 |
+|      12 | Water                 |      46 |    46 |    835 |
+
+🛢️ Dataset: Pavia_Centre
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 24.61   Loss: FocalLoss
+
+|   Class | Name                 |   Train |   Val |   Test |
+|---------|----------------------|---------|-------|--------|
+|       0 | Water                |    3298 |  3298 |  59375 |
+|       1 | Trees                |     379 |   379 |   6840 |
+|       2 | Asphalt              |     154 |   154 |   2782 |
+|       3 | Self-Blocking Bricks |     134 |   134 |   2417 |
+|       4 | Bitumen              |     329 |   329 |   5926 |
+|       5 | Tiles                |     462 |   462 |   8324 |
+|       6 | Shadows              |     364 |   364 |   6559 |
+|       7 | Meadows              |    2141 |  2141 |  38544 |
+|       8 | Bare Soil            |     143 |   143 |   2577 |
+
+🛢️ Dataset: Pavia_University
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 19.83   Loss: FocalLoss
+
+|   Class | Name                 |   Train |   Val |   Test |
+|---------|----------------------|---------|-------|--------|
+|       0 | Asphalt              |     331 |   331 |   5969 |
+|       1 | Meadows              |     932 |   932 |  16785 |
+|       2 | Gravel               |     104 |   104 |   1891 |
+|       3 | Trees                |     153 |   153 |   2758 |
+|       4 | Painted metal sheets |      67 |    67 |   1211 |
+|       5 | Bare Soil            |     251 |   251 |   4527 |
+|       6 | Bitumen              |      66 |    66 |   1198 |
+|       7 | Self-Blocking Bricks |     184 |   184 |   3314 |
+|       8 | Shadows              |      47 |    47 |    853 |
+
+🛢️ Dataset: Salinas
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 12.51   Loss: FocalLoss
+
+|   Class | Name                      |   Train |   Val |   Test |
+|---------|---------------------------|---------|-------|--------|
+|       0 | Broccoli_green_weeds_1    |     100 |   100 |   1809 |
+|       1 | Broccoli_green_weeds_2    |     186 |   186 |   3354 |
+|       2 | Fallow                    |      98 |    98 |   1780 |
+|       3 | Fallow_rough_plow         |      69 |    69 |   1256 |
+|       4 | Fallow_smooth             |     133 |   133 |   2412 |
+|       5 | Stubble                   |     197 |   197 |   3565 |
+|       6 | Celery                    |     178 |   178 |   3223 |
+|       7 | Grapes_untrained          |     563 |   563 |  10145 |
+|       8 | Soil_vineyard_develop     |     310 |   310 |   5583 |
+|       9 | Corn_senesced_green_weeds |     163 |   163 |   2952 |
+|      10 | Lettuce_romaine_4wk       |      53 |    53 |    962 |
+|      11 | Lettuce_romaine_5wk       |      96 |    96 |   1735 |
+|      12 | Lettuce_romaine_6wk       |      45 |    45 |    826 |
+|      13 | Lettuce_romaine_7wk       |      53 |    53 |    964 |
+|      14 | Vineyard_untrained        |     363 |   363 |   6542 |
+|      15 | Vineyard_vertical_trellis |      90 |    90 |   1627 |
+
+🛢️ Dataset: SalinasA
+✂️ Train ratio: 0.05  Val ratio: 0.05  Min samples: 5
+⚖️ Imbalance ratio: 4.00   Loss: CrossEntropy
+
+|   Class | Name                      |   Train |   Val |   Test |
+|---------|---------------------------|---------|-------|--------|
+|       0 | Broccoli_green_weeds_1    |      19 |    19 |    353 |
+|       1 | Corn_senesced_green_weeds |      67 |    67 |   1209 |
+|       2 | Lettuce_romaine_4wk       |      30 |    30 |    556 |
+|       3 | Lettuce_romaine_5wk       |      76 |    76 |   1373 |
+|       4 | Lettuce_romaine_6wk       |      33 |    33 |    608 |
+|       5 | Lettuce_romaine_7wk       |      39 |    39 |    721 |

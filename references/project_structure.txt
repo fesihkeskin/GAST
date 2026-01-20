@@ -1,0 +1,281 @@
+GAST/
+# Root of the project
+├── models/
+│    
+│   ├── checkpoints/
+│   │    
+│   ├── final/
+│   │    
+│   ├── gast_ablation/
+│   │    
+│   └── threshold_tuning/
+│        
+├── notebooks/
+│    
+│   ├── experiments/
+│   │    
+│   │   ├── Botswana_gt_vs_pred.png
+│   │   ├── Houston13_gt_vs_pred.png
+│   │   ├── Indian_Pines_gt_vs_pred.png
+│   │   ├── Kennedy_Space_Center_gt_vs_pred.png
+│   │   ├── Pavia_Centre_gt_vs_pred.png
+│   │   ├── Pavia_University_gt_vs_pred.png
+│   │   ├── SalinasA_gt_vs_pred.png
+│   │   ├── Salinas_gt_vs_pred.png
+│   │   └── ablation_results.ipynb
+│   └── exploration/
+│        
+│       └── data_explorer.ipynb
+├── references/
+│    
+│   ├── create_project_structure.py
+│   └── project_structure.txt
+├── reports/
+│    
+│   ├── figures/
+│   │    
+│   │   └── tsne_Pavia_University_test.png
+│   ├── gating_analysis/
+│   │    
+│   │   ├── Botswana/
+│   │   │    
+│   │   │   ├── gating_analysis_Botswana.csv
+│   │   │   └── gating_analysis_Botswana.eps
+│   │   ├── Houston13/
+│   │   │    
+│   │   │   ├── gating_analysis_Houston13.csv
+│   │   │   └── gating_analysis_Houston13.eps
+│   │   ├── Indian_Pines/
+│   │   │    
+│   │   │   ├── gating_analysis_Indian_Pines.csv
+│   │   │   └── gating_analysis_Indian_Pines.eps
+│   │   ├── Kennedy_Space_Center/
+│   │   │    
+│   │   │   ├── gating_analysis_Kennedy_Space_Center.csv
+│   │   │   └── gating_analysis_Kennedy_Space_Center.eps
+│   │   ├── Pavia_Centre/
+│   │   │    
+│   │   │   ├── gating_analysis_Pavia_Centre.csv
+│   │   │   └── gating_analysis_Pavia_Centre.eps
+│   │   ├── Pavia_University/
+│   │   │    
+│   │   │   ├── gating_analysis_Pavia_University.csv
+│   │   │   └── gating_analysis_Pavia_University.eps
+│   │   ├── Salinas/
+│   │   │    
+│   │   │   ├── gating_analysis_Salinas.csv
+│   │   │   └── gating_analysis_Salinas.eps
+│   │   ├── SalinasA/
+│   │   │    
+│   │   │   ├── gating_analysis_SalinasA.csv
+│   │   │   └── gating_analysis_SalinasA.eps
+│   │   └── gating_analysis_Indian_Pines.csv
+│   ├── optuna_db/
+│   │    
+│   │   ├── study_Botswana_coarse.db
+│   │   ├── study_Botswana_fine.db
+│   │   ├── study_Houston13_coarse.db
+│   │   ├── study_Houston13_fine.db
+│   │   ├── study_Houston13_smbft_coarse.db
+│   │   ├── study_Indian_Pines_coarse.db
+│   │   ├── study_Indian_Pines_fine.db
+│   │   ├── study_Kennedy_Space_Center_coarse.db
+│   │   ├── study_Kennedy_Space_Center_fine.db
+│   │   ├── study_Pavia_Centre_coarse.db
+│   │   ├── study_Pavia_Centre_fine.db
+│   │   ├── study_Pavia_University_coarse.db
+│   │   ├── study_Pavia_University_fine.db
+│   │   ├── study_Pavia_University_smbft_coarse.db
+│   │   ├── study_SalinasA_coarse.db
+│   │   ├── study_SalinasA_fine.db
+│   │   ├── study_Salinas_coarse.db
+│   │   ├── study_Salinas_fine.db
+│   │   └── study_Salinas_smbft_coarse.db
+│   ├── optuna_reports/
+│   │    
+│   │   └── optuna_reports_study_Pavia_University/
+│   │        
+│   │       ├── coarse/
+│   │       │    
+│   │       │   ├── coarse_all_trials.csv
+│   │       │   ├── coarse_robustness_stats.json
+│   │       │   ├── coarse_state_summary.json
+│   │       │   ├── coarse_top_10_trials.csv
+│   │       │   ├── coarse_top_20_trials.csv
+│   │       │   ├── optimization_history_coarse.png
+│   │       │   ├── parallel_coordinate_coarse.png
+│   │       │   ├── param_importances_coarse.png
+│   │       │   └── slice_plot_coarse.png
+│   │       └── fine/
+│   │            
+│   │           ├── fine_all_trials.csv
+│   │           ├── fine_robustness_stats.json
+│   │           ├── fine_state_summary.json
+│   │           ├── fine_top_10_trials.csv
+│   │           ├── fine_top_20_trials.csv
+│   │           ├── optimization_history_fine.png
+│   │           ├── parallel_coordinate_fine.png
+│   │           ├── param_importances_fine.png
+│   │           └── slice_plot_fine.png
+│   ├── results/
+│   │    
+│   │   ├── 20250806_140147/
+│   │   │    
+│   │   │   └── opt_summary_gast.txt
+│   │   ├── 20251023_103216/
+│   │   │    
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_103104/
+│   │   │    
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_103136/
+│   │   │    
+│   │   │   ├── Houston13/
+│   │   │   │    
+│   │   │   │   └── smbft_coarse/
+│   │   │   │        
+│   │   │   │       ├── trial_0/
+│   │   │   │       │    
+│   │   │   │       │   └── splits/
+│   │   │   │       │        
+│   │   │   │       │       └── class_distribution_seed_242.txt
+│   │   │   │       └── trial_1/
+│   │   │   │            
+│   │   │   │           └── splits/
+│   │   │   │                
+│   │   │   │               └── class_distribution_seed_242.txt
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_105258/
+│   │   │    
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_105554/
+│   │   │    
+│   │   │   ├── Houston13/
+│   │   │   │    
+│   │   │   │   └── smbft_coarse/
+│   │   │   │        
+│   │   │   │       ├── trial_4/
+│   │   │   │       │    
+│   │   │   │       │   └── splits/
+│   │   │   │       │        
+│   │   │   │       │       └── class_distribution_seed_242.txt
+│   │   │   │       └── trial_5/
+│   │   │   │            
+│   │   │   │           └── splits/
+│   │   │   │                
+│   │   │   │               └── class_distribution_seed_242.txt
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_105719/
+│   │   │    
+│   │   │   ├── Houston13/
+│   │   │   │    
+│   │   │   │   └── smbft_coarse/
+│   │   │   │        
+│   │   │   │       ├── trial_7/
+│   │   │   │       │    
+│   │   │   │       │   └── splits/
+│   │   │   │       │        
+│   │   │   │       │       └── class_distribution_seed_242.txt
+│   │   │   │       └── trial_8/
+│   │   │   │            
+│   │   │   │           └── splits/
+│   │   │   │                
+│   │   │   │               └── class_distribution_seed_242.txt
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── smbft_tuning_20251023_105804/
+│   │   │    
+│   │   │   ├── Pavia_University/
+│   │   │   │    
+│   │   │   │   └── smbft_coarse/
+│   │   │   │        
+│   │   │   │       ├── trial_0/
+│   │   │   │       │    
+│   │   │   │       │   └── splits/
+│   │   │   │       │        
+│   │   │   │       │       └── class_distribution_seed_242.txt
+│   │   │   │       └── trial_1/
+│   │   │   │            
+│   │   │   │           └── splits/
+│   │   │   │                
+│   │   │   │               └── class_distribution_seed_242.txt
+│   │   │   ├── Salinas/
+│   │   │   │    
+│   │   │   │   └── smbft_coarse/
+│   │   │   │        
+│   │   │   │       ├── trial_0/
+│   │   │   │       │    
+│   │   │   │       │   └── splits/
+│   │   │   │       │        
+│   │   │   │       │       └── class_distribution_seed_242.txt
+│   │   │   │       └── trial_1/
+│   │   │   │            
+│   │   │   │           └── splits/
+│   │   │   │                
+│   │   │   │               └── class_distribution_seed_242.txt
+│   │   │   └── opt_summary_smbft.txt
+│   │   ├── class_distributions.txt
+│   │   ├── gast_coarse_best_Botswana.sh
+│   │   ├── gast_coarse_best_Indian_Pines.sh
+│   │   ├── gast_coarse_best_Kennedy_Space_Center.sh
+│   │   ├── gast_coarse_best_Pavia_Centre.sh
+│   │   ├── gast_coarse_best_Pavia_University.sh
+│   │   ├── gast_coarse_best_Salinas.sh
+│   │   ├── gast_coarse_best_SalinasA.sh
+│   │   ├── gast_fine_best_Botswana.sh
+│   │   ├── gast_fine_best_Indian_Pines.sh
+│   │   ├── gast_fine_best_Kennedy_Space_Center.sh
+│   │   ├── gast_fine_best_Pavia_Centre.sh
+│   │   ├── gast_fine_best_Salinas.sh
+│   │   ├── gast_fine_best_SalinasA.sh
+│   │   ├── metrics_summary.csv
+│   │   ├── metrics_summary.txt
+│   │   └── metrics_summary_latex.txt
+│   ├── MVAHN_clis.txt
+│   ├── all_dataset_clis.txt
+│   ├── hyperparameters.md
+│   ├── report.md
+│   └── test_clis.txt
+├── scripts/
+│    
+│   ├── run_gast_ablation.sh
+│   ├── run_imbalance_threshold_ablation.sh
+│   └── run_parameter_sweep.sh
+├── src/
+│    
+│   ├── analysis/
+│   │    
+│   │   ├── analyze_gating.py
+│   │   └── gating_plots.py
+│   ├── data/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── class_distribution.py
+│   │   ├── data_loader.py
+│   │   ├── dataset.py
+│   │   ├── dataset_info.py
+│   │   └── downloader.py
+│   ├── models/
+│   │    
+│   │   ├── __init__.py
+│   │   └── model_architecture.py
+│   ├── training/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── gast_hyperparameter_tuning.py
+│   │   ├── generate_optuna_reports.py
+│   │   ├── test.py
+│   │   ├── train.py
+│   │   └── tsne_plot.py
+│   └── utils/
+│        
+│       ├── plot_gt_vs_pred_for_paper.py
+│       ├── resize_plotted_png.py
+│       ├── utils.py
+│       └── visualization.py
+├── LICENSE
+├── README.md
+├── main.py
+├── multirun.py
+├── requirements.txt
+├── run_all_tsne.py
+└── summarize_metrics.py

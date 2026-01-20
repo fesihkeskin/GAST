@@ -1,0 +1,10 @@
+ClassID,ClassName,Count,AvgGateValue
+3,Asphalt,2417,0.520868
+8,Meadows,2577,0.515047
+2,Trees,2782,0.506451
+4,Self-Blocking Bricks,5926,0.492719
+6,Tiles,6559,0.560472
+1,Water,6840,0.504527
+5,Bitumen,8324,0.525742
+7,Shadows,38544,0.530115
+0,Undefined,59375,0.531645
