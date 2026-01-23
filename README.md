@@ -205,13 +205,23 @@ For more details, see the docstrings and CLI examples in each script.
 
 If you use GAST in your research, please cite:
 
-```
-@article{gast_paper,
-  title={GAST: A Graph-Augmented Spectral–Spatial Transformer with Adaptive Gated Fusion for Small-Sample Hyperspectral Image Classification},
-  author={Author et al.},
-  year={2025}
+```BibTeX
+@Article{Keskin2026,
+  author   = {Faruk Keskin and Fesih Keskin and Gültekin Işık},
+  journal  = {ISPRS Open Journal of Photogrammetry and Remote Sensing},
+  title    = {GAST: A graph-augmented spectral-spatial transformer with adaptive gated fusion for small-sample hyperspectral image classification},
+  year     = {2026},
+  issn     = {2667-3932},
+  pages    = {100116},
+  doi      = {https://doi.org/10.1016/j.ophoto.2026.100116},
+  keywords = {Hyperspectral image classification, Transformer, Graph attention network, Spectral-spatial fusion, Deep learning},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2667393226000025},
 }
 ```
+
+
+Keskin, F., Keskin, F., & Işık, G. (2026). GAST: A graph-augmented spectral-spatial transformer with adaptive gated fusion for small-sample hyperspectral image classification. *ISPRS Open Journal of Photogrammetry and Remote Sensing, 6*, 100116. https://doi.org/10.1016/j.ophoto.2026.100116
+
 
 ---
 
