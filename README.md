@@ -14,7 +14,7 @@ A two-stage Optuna **optimisation** procedure tunes hyper-parameters for each sc
 
 ## Figures from the Manuscript
 
-The following figures mirror the visuals referenced in the manuscript (and are assumed to be available as PNG files under `reports/figures/`).
+The following figures mirror the visuals referenced in the manuscript.
 
 ### Overall Architecture (GAST)
 
